@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <style>
+        table{
+            border-collapse: collapse; /*bu komutla tavlo görünümü verilir*/
+            width: 100%;/* tablo boyutunu genişlik olarak otomatik belirler (sayfa boyutuna göre)*/
+        }
+        table{
+            border: 1px solid black /* tabloyu çerçeve içine alındı ve rengi siyah yapıldı*/
+            
+        }
+        th{
+            height: 40px;
+            border: 1px solid black /* hücreler çerçeve içine alındı ve rengi siyah yapıldı*/
+        }
+        td{
+            height: 30px;
+          text-align: center;/* yazılar hücrelerde kendini ortalar*/
+         /* padding-left: 10px;/*yazılar sağğa doğru kaydırır*/
+        }
+        tr:hover/*maouse üste geldiğinde renk değştir*/{
+            background-color: brown;
+        }
+        tr:nth-child(even)/*çift sayı sırasındaki satırların  renk değştir*/{
+            background-color: rgb(126, 71, 71);
+        }
+    </style>
+</head>
+<body>
+    <h1 style="background-color: blueviolet;">"MERHABA BEN CSS"</h1>
+   <table>
+    <tr>
+        <th>ADI</th>
+        <th>SOYADI</th>
+        <th>ŞEHİR</th>
+    </tr>
+    <tr>
+        <th>Beyza</th>
+        <th>Arslan</th>
+        <th>İstanbul</th>
+    </tr>
+    <tr>
+        <th>Onur</th>
+        <th>Çelebi</th>
+        <th>Ankara</th>
+    </tr>
+    <tr>
+        <th>Sultan</th>
+        <th>Arslan</th>
+        <th>İstanbul</th>
+    </tr>
+   </table>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <style>
+            input[type=text],input[type=password]{
+                width: 100%;
+                padding:10px;
+                border:1px solid green;
+                border-radius: 4px;/*kenarları yuvarlak yapar*/
+                color:white;/*yazı rengi*/
+                background-color: #3cbc8d;
+            }
+            input[type=text]:focus,input[type=password]:focus{
+                background-color: lightblue;
+            }
+            /*id*/
+            #email{
+                background-color:blanchedalmond;
+            }
+        </style>
+    </head>
+    <body>
+        Adınız : <input id="email" type="text"> 
+        Email : <input type="text"> 
+        Şifre : <input type="password"> 
+        
+        <input type="submit"> 
+    </body>
+</html>

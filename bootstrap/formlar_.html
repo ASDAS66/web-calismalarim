@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-md-6">
+            <form>
+                <div class="form-group">
+                    <label for="firstName"> Adı : </label>
+                    <input type="text" class="form-control" id="firstName" placeholder="Adınızı Giriniz.">
+                </div>
+                <div class="form-group">
+                    <label for="lastName"> Soy Adın : </label>
+                    <input type="lastName" class="form-control" id="lastName" placeholder="Soyadınızı giriniz.">
+                </div>
+                <div class="form-group">
+                    <label for="email"> E-Mail : </label>
+                    <input type="email" class="form-control" id="email" placeholder="E-mail giriniz.">
+                </div>
+                <div class="form-group">
+                    <label for="Password"> Şifre : </label>
+                    <input type="Password" class="form-control" id="Password" placeholder="Şifrenizi giriniz.">
+                </div>
+                <div class="form-group">
+                    <label for="city"> Şehir </label>
+                    <select class="form-control" id="city">
+                        <option>Ankara</option>
+                        <option>İstanbul</option>
+                        <option>İzmir</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="bio">Hakkında</label>
+                    <textarea rows="3" class="form-control" id="bio"></textarea>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="term">
+                        <input type="checkbox" checked="true" class="form-check-input" id="term"> Kabul ediyorum
+                    </label>
+                </div>
+                <div class="form-group">
+                Cinsiyetiniz :
+                <div class="container" class="form-check disabled">
+                    
+                    <label class="form-check-label" for="radio">
+                        <input type="radio" name="radyo" class="form-check-input" id="term"> kadın
+                    </label>
+                
+                    <label class="form-check-label" for="radio">
+                        <input type="radio" name="radyo" class="form-check-input" id="term"> erkek
+                    </label>
+                
+                    <label class="form-check-label" for="radio">
+                        <input type="radio" name="radyo" class="form-check-input" id="term"> belirtmek istemiyorum
+                    </label>
+                </div>
+            </div>
+                <button type="submit" class="btn btn-success"> Send</button>
+            </form>
+            
+        </div>
+
+    </div>
+</body>
+<script src="/docs/5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+
+</html>
